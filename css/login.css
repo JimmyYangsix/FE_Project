@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    height: 40px;
+    width: 100%;
+    background-color: #3f577f;
+}
+.title{    
+    color: #fff;
+    line-height: 40px;
+    font-size: 40px;
+    /* margin-left: 10px;*/
+    /*display: inline-block; 
+    text-indent: 10px;*/
+}
+.login,.login button{
+    width: 100px;
+    height: 40px;
+    float: right;
+    color: #fff;
+    background-color: #112539;
+    border-color: #425161;
+    border-radius: 6px;
+}
+
+.content{
+    height: 870px;
+    width: 100%;
+    position: relative;
+}
+.choice{
+    width: 19px;
+    height: 19px;
+    float: left;
+    position: relative;
+    left: 280px;
+    top:30px;
+    background: url("../images/choice.jpg");
+}
+.content form{
+    margin: 0 auto;
+    width: 336px;
+    height: 260px;
+    position: relative;
+    top:120px;
+    background-color: #425161;
+    border-radius: 5px;
+
+}
+#log form{
+    float: right;
+    width: 246px;
+    height: 158px;
+    background-color: #425161;
+    border-radius: 5px;
+    position: relative;
+    top:5px;
+}
+#log form input{
+    position: relative;
+    top:10px;
+    left:40px;
+    font-size: 12px;
+    border-width: 1px;
+    width: 170px;
+}
+.input{   
+    position: relative;
+    top:20px;
+    left:55px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #112539;
+    border-color: #425161;
+    font-size: 13px;
+    line-height: 30px;
+    border-width: 1px;
+    width: 200px;
+}
+::-webkit-input-placeholder
+{
+    color: #fff;
+}
+.button{
+    position: relative;
+    top:70px;
+    left:-80px;
+    width: 80px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #112539;
+    border-color: #425161;
+    height: 40px;
+    border-width: 1px;
+}
+.bottom{
+    position: relative;
+    top: 170px;
+    height: 480px;
+    width: 1500px;
+    margin: 0 auto;
+}
+.Show_list{
+    list-style-type: none;
+    width: 1250px;
+    height: 300px;
+    margin: 0 auto;
+}
+.Show_list li{
+    float: left;
+    margin-left: 90px;
+}
+.Show_list span{
+    position: relative;
+    top:50px;
+    left: -100px;
+}
+.op{
+    font-size:100px;
+    color:#e2e1e1; 
+    display:block; 
+    width:100px;
+    height: 132px;
+    float: left;
+}
+.text{
+    font-size:30px;
+    color:#e2e1e1;
+    float: left;
+    width: 1250px;
+    height: 150px;
+    margin-left: 125px;
+}
+.Show_text{
+ width: 800px;
+ height: 132px;
+ float: left;
+ line-height: 130px;
+text-align: center;
+}
+span:hover{
+    cursor: pointer;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: #f4f4f4;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录注册小练习</title>
+    <link href="css/login.css" rel="stylesheet" />
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div id="show"></div>
+    <div class="top">
+        <span class="title">E-life</span>
+        <div class="login"><button type="button" onmousemove="LOG()" onmouseout="QU()">LOGIN</button></div>
+    </div>
+    <div class="content">
+        <div id="log">
+            <form action="" method="">
+                <input type="text" name="user" class="input" placeholder="输入用户名">
+                <input type="password" name="password" class="input" placeholder="输入密码">
+                <input type="submit" value="登录" class="button">
+            </form>
+        </div>
+        <form action="" method="">
+            <input type="text" name="user" onblur="change(this)" id="one" class="input" placeholder="输入用户名/邮箱/手机号码">
+            <div class="choice"></div>
+            <input type="password" name="password" onblur="change(this)" id="two" class="input" placeholder="输入密码">
+            <div class="choice"></div>
+            <input type="password" name="repeat-password" onkeyup="change(this)" required="required"  id="three" class="input" placeholder="确认输入密码">
+            <div class="choice"></div>
+            <input type="button" value="登录&注册" class="button">
+        </form>
+        <div class="bottom">
+            <ul class="Show_list">
+                <li><a href="#"><img src="images/Show_one.jpg" alt=""></a><span>E-clothing</span></li>
+                <li><a href="#"><img src="images/Show_two.jpg" alt=""></a><span>E-eating</span></li>
+                <li><a href="#"><img src="images/Show_three.jpg" alt=""></a><span>E-living</span></li>
+                <li><a href="#"><img src="images/Show_four.jpg" alt=""></a><span>E-travelinh</span></li>
+            </ul>
+            <div class="text">
+                <span class="op" onclick="add()">&lt</span>
+                <span id="1" style="display:block;" class="Show_text">No.1旅游不在乎终点，而在意途中的人和事</span>
+                <span id="2" style="display:none;" class="Show_text">No.2旅游不在乎终点，而在意途中的人和事</span>
+                <span class="op" onclick="sub()">&gt</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+</body>
+
+</html>
