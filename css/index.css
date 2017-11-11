@@ -1,0 +1,71 @@
+
+.introduce{
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.introduce img{
+    float: left;
+    width: 360px;
+    height: 360px;
+    margin: 0 auto;
+}
+.info{
+    width: 800px;
+    height: 500px;
+    float: right;
+}
+
+.info ul{
+    list-style-type: none;
+}
+.tranistion{
+    width: 600px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 20px auto;
+}
+.circle{
+width: 50px;
+height: 50px;
+background: blue;
+border-radius: 50%;
+margin: 50px 0;
+transition: all 2s;
+}
+.tranistion:hover .circle{
+    background: green;
+    transform: translate(550px,0);
+}
+@keyframes circlrRun
+{
+    33%{
+        transform: translate(150px,35px);
+    }
+    66%{
+        transform: translate(400px,-35px);
+    }
+    to{
+            transform: translate(550px,0);
+            background: red;
+    }
+}
+.circlrs{
+    width: 50px;
+    height: 50px;
+    background: blue;
+    border-radius: 50%;
+    margin: 70px 0; 
+    animation-name:circlrRun;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+.show{
+    width: 600px;
+    height: 200px;
+    background: #fff;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}

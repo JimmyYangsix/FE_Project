@@ -1,0 +1,171 @@
+.header{
+    width: 100%;
+    height: 200px;
+}
+.logo{
+    float: left;
+    height: 200px;
+}
+.navbar-header
+{
+    padding-left: 100px;
+}
+.content{
+    width: 1000px;
+    height: 1700px;
+    margin: 0 auto; 
+}
+.content_left{
+    width: 200px;
+    height: 1700px; 
+}
+.content_left ul{
+list-style-type: none; 
+}
+.content_left ul li a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+body{
+background-image: url(../images/42.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+z-index: -2;
+}
+.content1{
+    width: 100%;
+    height: 750px;
+}
+.left_3D{
+    float: left;
+    width: 70%;
+}
+.right_3D
+{
+    width: 29%;
+    float: right;
+    margin-top: 5%;
+}
+.right_3D h2 {
+    padding-right: 120px;
+}
+#lastname,#firstname{
+    width: 76%; 
+    margin: 2% 0;
+}
+.copy .navbar-header .container-fluid{
+    padding: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.network,.project{
+    margin:0 auto;
+    width: 860px;
+}
+.left{
+    height: 239px;
+    width: 358px;
+    float: left;
+    margin:40px 0px;
+}
+.right{
+    height: 239px;
+    width: 358px;
+    float: left;
+    margin:40px 71px;
+}
+ h1 strong,h2{
+    font-family:'幼圆';
+}
+.bounce{
+  position : relative;
+  width : 1.5em;
+  height : 1.5em;
+  border-radius : 50%;
+  background : radial-gradient(top left, #EEE, #333 60%);
+  background : -o-radial-gradient(top left, #EEE, #333 60%);
+  background : -ms-radial-gradient(top left, #EEE, #333 60%);
+  background : -moz-radial-gradient(top left, #EEE, #333 60%);
+  background : -webkit-radial-gradient(top left, #EEE, #333 60%);
+  animation : bounce 0.5s cubic-bezier(0.3,0.6,1,0.5) alternate infinite;
+  -o-animation : bounce 0.5s cubic-bezier(0.3,0.6,1,0.5) alternate infinite;
+  -ms-animation : bounce 0.5s cubic-bezier(0.3,0.6,1,0.5) alternate infinite;
+  -moz-animation : bounce 0.5s cubic-bezier(0.3,0.6,1,0.5) alternate infinite;
+  -webkit-animation : bounce 0.5s cubic-bezier(0.3,0.6,1,0.5) alternate infinite;
+  bottom : 1em;
+  box-shadow : 0 1em 1em #DDD;    
+}
+
+@keyframes bounce{
+  60%{
+    bottom : 0.5em;
+    height : 1.5em;
+    width : 1.5em;
+    box-shadow : 0 0.5em 0.6em #CCC;
+  }
+  to{
+    bottom : 0;
+    height : 1em;
+    width : 1.9em;
+    box-shadow : 0 0.6em 0.7em #CCC;
+  }
+}
+@-o-keyframes bounce{
+  60%{
+    top : 0.5em;
+    height : 1.5em;
+    width : 1.5em;
+    box-shadow : 0 0.5em 0.6em #CCC;
+  }
+  to{
+    top : 1em;
+    height : 1em;
+    width : 1.9em;
+    box-shadow : 0 0.6em 0.7em #CCC;
+  }
+}
+@-ms-keyframes bounce{
+  60%{
+    top : 0.5em;
+    height : 1.5em;
+    width : 1.5em;
+    box-shadow : 0 0.5em 0.6em #CCC;
+  }
+  to{
+    top : 1em;
+    height : 1em;
+    width : 1.9em;
+    box-shadow : 0 0.6em 0.7em #CCC;
+  }
+}
+@-moz-keyframes bounce{
+  60%{
+    top : 0.5em;
+    height : 1.5em;
+    width : 1.5em;
+    box-shadow : 0 0.5em 0.6em #CCC;
+  }
+  to{
+    top : 1em;
+    height : 1em;
+    width : 1.9em;
+    box-shadow : 0 0.6em 0.7em #CCC;
+  }
+}
+@-webkit-keyframes bounce{
+  60%{
+    top : 0.5em;
+    height : 1.5em;
+    width : 1.5em;
+    box-shadow : 0 0.5em 0.6em #CCC;
+  }
+  to{
+    top : 1em;
+    height : 1em;
+    width : 1.9em;
+    box-shadow : 0 0.6em 0.7em #CCC;
+  }
+}
