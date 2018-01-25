@@ -48,31 +48,32 @@ header .col-md-4{
 .content_top_change .active{
     background-color: #e2534b;
 }
-.content_top_title{
-    width: 345px;
-    height: 50px;
+.content_top_title{  
+    height: 10%;
     border-radius: 10px;
-    background-color: #e2534b;
-    margin: 0 auto;
+    background-color: #e2534b;  
     position: relative;
     top:160px;
     color: #fff;
     text-align: center;
-    line-height: 50px;
-    font-size: 53px;
+    font-size: 285%;
+    /*
+    width: 345px;
+    margin: 0 auto;*/
 }
 .content_top_message{
-    width: 470px;
+    
     height: 70px;
     border-radius: 10px;
-    background-color: #3f4646;
-    margin: 0 auto;
-    position: relative;
+    background-color: #3f4646; 
     top:170px;
     color: #fff;
     text-align: center;
     font-size: 20px;
-    line-height: 35px;
+    line-height: 70px;
+    /*width: 470px;
+    margin: 0 auto;
+    */
 }
 .row_show_top{
     height: 100px;
@@ -98,12 +99,12 @@ header .col-md-4{
     height: 315px;
     border-radius: 5px;
 }
-.bottom .btn{
+.top .btn{
     color:white;
-    position:relative;
-    top:-15px;
+    position:absolute;
     font-size:20px;
     background-color:#76c7c0;
+    top:290px;
 }
 .bottom .btn:hover{
 background-color: #e8645a;
@@ -113,11 +114,51 @@ color:white;
     background-color: #f3f3f3;
 }
 .rule{
-    background-image: url(../images/rule_2.jpg);
-    background-color: #76c7c0;
-    height: 10px;
+    background-image: url(../images/rule_2.jpg);;
+    height: 19px;
+}
+.rule_3{
+    background-image: url(../images/rule_3.jpg);
+    height: 19px;
 }
 .about{
-    height: 400px;
+    height: 900px;
     background-color: #ececec;
+}
+.about_show{
+    height: 500px;
+    background-color: #ececec;
+    padding-top:100px;
+}
+.about_beside{
+    height: 260px;
+    background-color: #b0b8b9;
+    border-radius: 10px;
+}
+.inbeside{
+    height:85%;
+    background-color: #62b9b0;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 9%;
+
+}
+.about_middle{
+    height: 360px;
+    background-color: #c1c7c8;
+    border-radius: 10px;
+}
+.footer_top{
+    background-color: #76c7c0;
+    height: 300px;
+}
+.footer_top_message .col-md-3 {
+    color:#fff;
+}
+.change_css{
+    font-size:150%;
+}
+.footer_bottom{
+    height:50px;
+    background-color: #6ab3ac;
 }
